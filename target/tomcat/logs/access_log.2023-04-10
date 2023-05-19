@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:11:39:42 +0530] "GET /my-company/login HTTP/1.1" 200 685 http-bio-8080-exec-1 2594
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:11:39:42 +0530] "GET /my-company/webjars/bootstrap/3.3.6/css/bootstrap.min.css HTTP/1.1" 200 121260 http-bio-8080-exec-3 27
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:11:39:42 +0530] "GET /my-company/webjars/jquery/1.9.1/jquery.min.js HTTP/1.1" 200 92629 http-bio-8080-exec-2 22
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:11:39:42 +0530] "GET /my-company/webjars/bootstrap/3.3.6/js/bootstrap.min.js HTTP/1.1" 200 36868 http-bio-8080-exec-4 16
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:11:39:43 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-7 6
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:11:40:06 +0530] "POST /my-company/login HTTP/1.1" 500 4160 http-bio-8080-exec-8 45
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:11:50:54 +0530] "GET /my-company/login HTTP/1.1" 200 685 http-bio-8080-exec-1 375
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:11:51:03 +0530] "POST /my-company/login HTTP/1.1" 200 1679 http-bio-8080-exec-3 1568
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:16:12:01 +0530] "GET /my-company/login HTTP/1.1" 200 2920 http-bio-8080-exec-1 1120
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:16:12:01 +0530] "GET /my-company/img_avatar2.png HTTP/1.1" 404 949 http-bio-8080-exec-3 5
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:16:12:17 +0530] "POST /action_page.php HTTP/1.1" 404 981 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:16:17:33 +0530] "GET /my-company/login HTTP/1.1" 200 2946 http-bio-8080-exec-2 1717
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:16:17:33 +0530] "GET /my-company/img_avatar2.png HTTP/1.1" 404 949 http-bio-8080-exec-3 15
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:16:17:42 +0530] "POST /my-company/login HTTP/1.1" 200 1679 http-bio-8080-exec-4 132
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:16:18:23 +0530] "GET /my-company/login HTTP/1.1" 200 2946 http-bio-8080-exec-5 9

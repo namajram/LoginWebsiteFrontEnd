@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:45:29 +0530] "GET /login HTTP/1.1" 404 949 http-bio-8080-exec-1 44
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:45:30 +0530] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:45:37 +0530] "GET / HTTP/1.1" 404 949 http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:46:33 +0530] "GET /register HTTP/1.1" 404 949 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:46:36 +0530] "GET /register HTTP/1.1" 404 949 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:47:40 +0530] "GET /my-company/login HTTP/1.1" 404 949 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:48:55 +0530] "GET /mycompany HTTP/1.1" 404 949 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:48:58 +0530] "GET /mycompany HTTP/1.1" 404 949 http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:49:41 +0530] "GET /mycompany HTTP/1.1" 404 949 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:50:09 +0530] "GET //mycompany/home HTTP/1.1" 404 949 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:50:12 +0530] "GET //mycompany/home HTTP/1.1" 404 949 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:50:25 +0530] "GET //my-company/home HTTP/1.1" 404 949 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [19/May/2023:11:50:33 +0530] "GET //my-company HTTP/1.1" 404 949 http-bio-8080-exec-3 2

@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:46:10 +0530] "GET /my-company/login HTTP/1.1" 500 4175 http-bio-8080-exec-2 767
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:46:11 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:46:24 +0530] "GET /my-company/login HTTP/1.1" 500 4175 http-bio-8080-exec-4 53
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:46:27 +0530] "GET /my-company/login HTTP/1.1" 500 4656 http-bio-8080-exec-6 17
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:47:37 +0530] "GET /my-company/login HTTP/1.1" 404 949 http-bio-8080-exec-8 3
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:50:56 +0530] "GET /my-company/login HTTP/1.1" 200 3042 http-bio-8080-exec-1 1806
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:50:56 +0530] "GET /my-company/img_avatar2.png HTTP/1.1" 404 949 http-bio-8080-exec-3 11
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:51:20 +0530] "POST /my-company/login HTTP/1.1" 200 1679 http-bio-8080-exec-6 132
