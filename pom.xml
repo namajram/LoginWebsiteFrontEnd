@@ -53,6 +53,8 @@
 					<artifactId>tomcat7-maven-plugin</artifactId>
 					<version>2.2</version>
 					<configuration>
+						<server>tomcat-development-server</server>
+    <port>8083</port>
 						<path>/</path>
 						<contextReloadable>true</contextReloadable>
 					</configuration>

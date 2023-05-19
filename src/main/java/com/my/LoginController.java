@@ -35,32 +35,32 @@ public class LoginController {
 	@Autowired
     private APIClient apiClient;
 
-	@RequestMapping(value = "/register", method=RequestMethod.GET )
+	@RequestMapping(value = "/userregister", method=RequestMethod.GET )
     public String showRegisterForm(Model model) {
-        model.addAttribute("user", new Login());
-        return "register-form";
+        model.addAttribute("register", new Login());
+        return "register";
     }
 
-    @RequestMapping(value="/register", method=RequestMethod.POST)
-    public String registerUser(@ModelAttribute("user") Login user) {
+    @RequestMapping(value="/userregister", method=RequestMethod.POST)
+    public String registerUser(@ModelAttribute("register") Login user) {
         apiClient.registerUser(user); // Call the API to register the user
-        return "redirect:/login";
+        return "redirect:/userlogin";
     }
 
-    @RequestMapping(value = "/login", method=RequestMethod.GET )
+    @RequestMapping(value = "/userlogin", method=RequestMethod.GET )
     public String showLoginForm(Model model) {
-        model.addAttribute("user", new Login());
+        model.addAttribute("login", new Login());
         return "login";
     }
 
-	@RequestMapping(value="/login", method=RequestMethod.POST)
-    public String loginUser(@ModelAttribute("user") Login user) {
+	@RequestMapping(value="/userlogin", method=RequestMethod.POST)
+    public String loginUser(@ModelAttribute("login") Login user) {
         boolean loginSuccess = apiClient.loginUser(user); // Call the API to authenticate the user
 
         if (loginSuccess) {
             return "login Success";
         } else {
-            return "login-form";
+            return "redirect:/userlogin";
         }
     }
 }
